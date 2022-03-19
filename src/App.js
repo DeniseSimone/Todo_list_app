@@ -74,6 +74,7 @@ function App(props) {
       <ul role="list" className="todo-list stack-large stack-exception" aria-labelledby="list-heading">
         {taskList}
       </ul>
+      <p style={{textAlign: 'center'}}>Produced by: DENISE SIMONE CUSTODIO</p>
     </div>
   );
 }
