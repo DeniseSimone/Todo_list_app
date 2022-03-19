@@ -26,7 +26,7 @@ function Form(props) {
                 onChange={(e) => setName(e.target.value)}
                 required
             />
-            <button type="submit" className="btn btn__primary btn__lg" >Add</button>
+            <button type="submit" className="btn btn__primary btn__lg" style={{marginBottom: '2.5rem'}} >Add</button>
          </form>
     )
 }
