@@ -17,7 +17,7 @@ function Todo(props) {
         <form className="stack-small" onSubmit={handleSubmit}>
           <div className="form-group">
             <label className="todo-label" htmlFor={props.id}>
-              New name for {props.name}
+              New name for '{props.name}'
             </label>
             <input 
                 id={props.id} 
