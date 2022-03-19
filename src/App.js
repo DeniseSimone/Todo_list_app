@@ -63,19 +63,15 @@ function App(props) {
   const tasksCountText = `${taskList.length} ${tasksNoun} remaining`;
 
   return (
-
     <div className="todoapp stack-large">
- 
       <Form addTask={addTask} /> 
-
+      <br/>
       <div className="filters btn-group stack-exception">
         {filterList}
       </div>
- 
       <h2 id="list-heading">
         {tasksCountText}
       </h2>
-
       <ul role="list" className="todo-list stack-large stack-exception" aria-labelledby="list-heading">
         {taskList}
       </ul>
