@@ -12,7 +12,6 @@ function Todo(props) {
         setNewName("");
         setEditing(false);
     }
-
     
     const editingTemplate = (
         <form className="stack-small" onSubmit={handleSubmit}>
@@ -41,7 +40,6 @@ function Todo(props) {
         </form>
       );
 
-    
       const viewTemplate = (
         <div className="stack-small">
           <div className="c-cb">

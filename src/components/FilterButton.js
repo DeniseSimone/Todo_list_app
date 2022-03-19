@@ -11,7 +11,7 @@ function FilterButton(props) {
 }
 export default FilterButton
 
-/* The aria-pressed attribute indicates the current "pressed" state of a toggle button. 
+/* NOTE:  aria-pressed attribute indicates the current "pressed" state of a toggle button. 
 Adding aria-pressed to an element with a role of button turns the button into a toggle button. 
 The aria-pressed attribute is only relevant for toggle buttons. */
 
